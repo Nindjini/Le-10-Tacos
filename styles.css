@@ -21,7 +21,7 @@ h4,
 h5,
 h6,
 label {
-    color: red;
+    color: #38420E;
 }
 
 .pure-img-responsive {
@@ -221,7 +221,7 @@ a.pure-button-primary {
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #1f8dd6;
+    color: #38420E;
 }
     .content-subhead i {
         margin-right: 7px;
@@ -252,6 +252,19 @@ a.pure-button-primary {
     display: none;
 }
 
+    /* We can align the menu header to the left, but float the
+    menu items to the right. */
+    .home-menu {
+        text-align: left;
+    }
+    .home-menu ul {
+        float: right;
+    }
+
+    .home-menu img {
+        width:20px;
+        margin-top: 5px;
+    }
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
@@ -265,19 +278,9 @@ a.pure-button-primary {
         font-size: 16px;
     }
 
-    /* We can align the menu header to the left, but float the
-    menu items to the right. */
-    .home-menu {
-        text-align: left;
+    .home-menu img {
+        width:40px;
     }
-        .home-menu ul {
-            float: right;
-        }
-
-    /* We increase the height of the splash-container */
-/*    .splash-container {
-        height: 500px;
-    }*/
 
     /* We decrease the width of the .splash, since we have more width
     to work with */
