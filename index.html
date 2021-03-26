@@ -11,14 +11,15 @@
         integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css">
     <script src="https://kit.fontawesome.com/2cdc9dec99.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="light-theme.css" rel="stylesheet" id="theme-link">
 </head>
 
 <body>
 
     <div class="header">
         <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-            <a> <img src="img/path4541.png" alt=""> </a>
+            <!-- <a> <img src="img/path4541.png" alt=""> </a> -->  <!-- logo en blanc -->
             <ul class="pure-menu-list">
                 <li class="pure-menu-item pure-menu-selected"><a href="index.html" class="pure-menu-link"><i
                             class="fas fa-home"></i></a></li>
@@ -29,6 +30,8 @@
                 <li class="pure-menu-item"><a href="tel:+33466952854" class="pure-menu-link"><i
                             class="fas fa-phone"></i></a></li>
             </ul>
+            <p style="float:right; color:white; padding:0px; margin:0;">Le 10 Tacos
+                <button class="btn-toggle">mode sombre</button></p>
         </div>
     </div>
 
@@ -103,6 +106,7 @@
                         salade
                         <a href="img/menu_salade.jpg" target="_blank">
                             <i class="fas fa-download" style="float: right;"></i>
+                        </a>
                     </h3>
                     <p>
                         a remplir
@@ -134,5 +138,17 @@
                 carte plus grande</a></small>
     </div> -->
     </div>
-
+    <script>
+        const btn = document.querySelector(".btn-toggle");
+        const theme = document.querySelector("#theme-link");
+        btn.addEventListener("click", function() {
+          // Swap out the URL for the different stylesheets
+          if (theme.getAttribute("href") == "light-theme.css") {
+            theme.href = "dark-theme.css";
+          } else {
+            theme.href = "light-theme.css";
+          }
+        });
+      </script>
+</body>
 </html>

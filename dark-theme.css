@@ -1,0 +1,65 @@
+body {
+    color: #d6d6d6;
+    background-color: black;
+}
+
+label{
+    color: #e8f5b3;
+}
+.pure-form input[type] {
+    border: 2px solid #ddd;
+}
+.pure-button {
+    background-color: blue;
+}
+a.pure-button-primary {
+    background: #B91A00;
+    color: whitesmoke;
+}
+.home-menu {
+    background: #521000;
+}
+.home-menu .pure-menu-heading {
+    color: white;
+}
+.home-menu .pure-menu-selected a {
+    color: white !important;
+}
+.home-menu a {
+    color: white;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border-bottom: solid 2px whitesmoke;
+}
+.splash-container {
+    background: black;
+}
+.splash-head {
+    color: #521000;
+    border: 3px solid  #521000;
+}
+.splash-subhead {
+    color: black;
+}
+.content-wrapper {
+    background: black;
+}
+.content-head-ribbon {
+    color: white;
+}
+.content-subhead {
+    color: #e8f5b3;
+}
+.ribbon {
+    background: #2d3e50;
+    color: #aaa;
+}
+.footer {
+    background: #111;
+}
+#num_tel {
+    color: #e8f5b3;
+    border-bottom: solid 3px #e8f5b3;
+}
