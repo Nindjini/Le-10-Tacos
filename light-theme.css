@@ -17,6 +17,9 @@ a.pure-button-primary {
 .home-menu {
     background: #521000;
 }
+#nom_menu {
+    color:white;
+}
 .home-menu .pure-menu-heading {
     color: white;
 }

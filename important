@@ -1,0 +1,4 @@
+icone lune pleine = <i class="fas fa-moon"></i>
+icone lune vide = <i class="far fa-moon"></i>
+icone soleil plein = <i class="fas fa-sun"></i>
+icone soleil vide = <i class="fal fa-sun"></i>
