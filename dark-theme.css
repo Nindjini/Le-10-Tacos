@@ -1,6 +1,6 @@
 body {
     color: #d6d6d6;
-    background-color: black;
+    background-color: #1e1e1e;
 }
 
 label{
@@ -14,19 +14,22 @@ label{
 }
 a.pure-button-primary {
     background: #B91A00;
-    color: whitesmoke;
+    color: black;
 }
 .home-menu {
-    background: #521000;
+    background: #bd2718;
+}
+#nom_menu {
+    color:black;
 }
 .home-menu .pure-menu-heading {
-    color: white;
+    color: black;
 }
 .home-menu .pure-menu-selected a {
-    color: white !important;
+    color: black !important;
 }
 .home-menu a {
-    color: white;
+    color: black;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
@@ -34,17 +37,17 @@ a.pure-button-primary {
     border-bottom: solid 2px whitesmoke;
 }
 .splash-container {
-    background: black;
+    background: #0d0101;
 }
 .splash-head {
-    color: #521000;
-    border: 3px solid  #521000;
+    color: #bd2718;
+    border: 3px solid  #bd2718;
 }
 .splash-subhead {
-    color: black;
+    color: #1e1e1e;
 }
 .content-wrapper {
-    background: black;
+    background: #1e1e1e;
 }
 .content-head-ribbon {
     color: white;
@@ -63,3 +66,7 @@ a.pure-button-primary {
     color: #e8f5b3;
     border-bottom: solid 3px #e8f5b3;
 }
+img {
+    -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(80%);
+  }
