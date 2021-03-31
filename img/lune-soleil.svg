@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="255.20685mm"
+   height="287.62009mm"
+   viewBox="0 0 255.20685 287.62008"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="lune-soleil.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24815076"
+     inkscape:cx="163.88293"
+     inkscape:cy="-7.8737654"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1280"
+     inkscape:window-height="959"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-299.94038,227.84431)">
+    <path
+       sodipodi:type="star"
+       style="opacity:0.98000004;fill:#b1b1b1;fill-opacity:1;stroke:none;stroke-width:3.05900002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path835"
+       sodipodi:sides="13"
+       sodipodi:cx="298.85599"
+       sodipodi:cy="-36.664322"
+       sodipodi:r1="129.48431"
+       sodipodi:r2="72.135338"
+       sodipodi:arg1="-0.74456598"
+       sodipodi:arg2="-0.45837359"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 394.07643,-124.40972 -30.53139,55.82622 60.40178,-1.524364 -52.97794,35.243014 54.19153,26.7203522 -63.28789,6.5860596 L 397.43918,47.28532 338.33984,23.705639 347.13372,83.483287 305.76188,35.139686 285.76842,92.156884 271.60187,30.1243 227.40132,71.319096 243.68544,9.8084455 185.40363,25.743608 l 43.0043,-46.897368 -59.01143,-12.975025 59.87271,-21.540463 -46.22223,-38.912791 63.025,8.751102 -22.84407,-55.936103 51.73903,37.03789 5.76738,-60.14513 28.60027,56.83975 33.0576,-50.57563 -1.09048,63.62031 z"
+       inkscape:transform-center-x="-0.42279433"
+       inkscape:transform-center-y="-0.42103943"
+       transform="rotate(70.354264,385.03144,37.241745)" />
+    <circle
+       style="opacity:0.98000004;fill:#b1b1b1;fill-opacity:1;stroke-width:0.35033202;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path827"
+       cx="425.88141"
+       cy="-67.961617"
+       r="77.237633" />
+    <path
+       style="opacity:1;fill:#535353;fill-opacity:1;stroke:#ffffff;stroke-width:16.64022446;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 399.96912,-209.00378 7.71372,-2.65211 c 0,0 -38.92721,55.58414 -16.68598,127.728984 19.00579,61.649882 87.92901,103.365176 87.92901,103.365176 l -12.74553,2.143541 C 309.74342,61.620629 255.9337,-131.22829 399.96912,-209.00378 Z"
+       id="path821"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccc" />
+  </g>
+</svg>

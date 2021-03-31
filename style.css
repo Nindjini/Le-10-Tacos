@@ -292,3 +292,14 @@ a.pure-button-primary {
         font-size: 300%;
     }
 }
+
+.home-menu img.logo_dark {
+    width : 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-toggle {
+    background-color: transparent;
+    border: none;
+}
