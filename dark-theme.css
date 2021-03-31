@@ -21,23 +21,19 @@ a.pure-button-primary {
 }
 #nom_menu {
     color:black;
-}b
+}
+.home-menu .pure-menu-heading {
+    color: black;
+}
+.home-menu .pure-menu-selected a {
+    color: black !important;
+}
 .home-menu a {
     color: black;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
-    background: none;<<<<<<< HEAD
-    =======
-    }
-    #nom_menu {
-        color:black;
-    }
-    .home-menu .pure-menu-heading {
-        color: black;
-    }
-    .home-menu .pure-menu-selected a {
-        color: black !imp
+    background: none;
     border-bottom: solid 2px whitesmoke;
 }
 .splash-container {
@@ -61,7 +57,12 @@ a.pure-button-primary {
 }
 .ribbon {
     background: #2d3e50;
-    color: #aaa;b
+    color: #aaa;
+}
+.footer {
+    background: #111;
+}
+#num_tel {
     color: #e8f5b3;
     border-bottom: solid 3px #e8f5b3;
 }
@@ -69,11 +70,3 @@ img {
     -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
     filter: grayscale(80%);
   }
-  #nom_menu {
-      color:black;
-  }
-  .home-menu .pure-menu-heading {
-      color: black;
-  }
-  .home-menu .pure-menu-selected a {
-      color: black !imp
