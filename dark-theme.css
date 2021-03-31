@@ -27,7 +27,17 @@ a.pure-button-primary {
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
-    background: none;
+    background: none;<<<<<<< HEAD
+    =======
+    }
+    #nom_menu {
+        color:black;
+    }
+    .home-menu .pure-menu-heading {
+        color: black;
+    }
+    .home-menu .pure-menu-selected a {
+        color: black !imp
     border-bottom: solid 2px whitesmoke;
 }
 .splash-container {
@@ -35,7 +45,9 @@ a.pure-button-primary {
 }
 .splash-head {
     color: #bd2718;
-    border: 3px solid  #bd2718;b
+    border: 3px solid  #bd2718;
+}
+.splash-subhead {
     color: #1e1e1e;
 }
 .content-wrapper {
@@ -57,3 +69,11 @@ img {
     -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
     filter: grayscale(80%);
   }
+  #nom_menu {
+      color:black;
+  }
+  .home-menu .pure-menu-heading {
+      color: black;
+  }
+  .home-menu .pure-menu-selected a {
+      color: black !imp
