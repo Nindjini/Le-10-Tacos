@@ -1,6 +1,6 @@
 body {
     color: #d6d6d6;
-    background-color: #1e1e1e;
+    background-color: #0f0f0f;
 }
 
 label{
@@ -17,7 +17,7 @@ a.pure-button-primary {
     color: black;
 }
 .home-menu {
-    background: #bd2718;
+    background: #a12116;
 }
 #nom_menu {
     color:black;
@@ -40,11 +40,11 @@ a.pure-button-primary {
     background: #0d0101;
 }
 .splash-head {
-    color: #bd2718;
-    border: 3px solid  #bd2718;
+    color: #a12116;
+    border: 3px solid  #a12116;
 }
 .splash-subhead {
-    color: #1e1e1e;
+    color: #c2c0c0;
 }
 .content-wrapper {
     background: #1e1e1e;
@@ -63,7 +63,7 @@ a.pure-button-primary {
     background: #111;
 }
 #num_tel {
-    color: #e8f5b3;
+    color: #ffbb00;
     border-bottom: solid 3px #e8f5b3;
 }
 img {
