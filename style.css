@@ -227,19 +227,41 @@ a.pure-button-primary {
     display: none;
 }
 
-    /* We can align the menu header to the left, but float the
-    menu items to the right. */
-    .home-menu {
-        text-align: left;
-    }
-    .home-menu ul {
-        float: left;
-    }
+/* We can align the menu header to the left, but float the
+menu items to the right. */
+.home-menu {
+    text-align: left;
+}
 
-    .home-menu img {
-        width:20px;
-        margin-top: 5px;
-    }
+.home-menu ul {
+    float: left;
+}
+
+.home-menu img {
+    width:20px
+    margin-top: 5px;
+}
+
+.home-menu img.logo_dark {
+    width : 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-toggle {
+    background-color: transparent;
+    border: none;
+}
+#imgBtn {
+    font-size: 125%;
+}
+#logoTacos {
+    display: none;
+}
+
+#logoTacos2 {
+    display: none;
+}
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
@@ -279,7 +301,21 @@ a.pure-button-primary {
         height: 400px;
         display: block;
     }
+    #logoTacos {
+        display: block;
+        width: 200px;
+        position: fixed;
+        left: 10px;
+    }
+    #logoTacos2 {
+        display: block;
+        width: 200px;
+        position: fixed;
+        right:10px ;
+    }
 }
+
+
 
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
@@ -291,15 +327,4 @@ a.pure-button-primary {
     .splash-head {
         font-size: 300%;
     }
-}
-
-.home-menu img.logo_dark {
-    width : 25px;
-    padding: 0;
-    margin: 0;
-}
-
-.btn-toggle {
-    background-color: transparent;
-    border: none;
 }

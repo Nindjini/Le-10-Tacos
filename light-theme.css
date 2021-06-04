@@ -64,3 +64,16 @@ a.pure-button-primary {
     color: #3f420e;
     border-bottom: solid 3px #38420E;
 }
+#imgBtn {
+    color: rgb(189, 187, 187);
+    font-size: 110%;
+}
+#imgBtn:hover {
+    color: #000000;
+}
+#logoTacos {
+    visibility: hidden;
+}
+#logoTacos2 {
+    visibility: hidden;
+}
