@@ -27,12 +27,12 @@
                             class="far fa-envelope" style="font-weight: bold;"></i></a></li>
                 <li class="pure-menu-item"><a href="https://osm.org/go/xVzKt72mg--?layers=N&m=" target="_blank"
                         class="pure-menu-link"><i class="fas fa-map-marked-alt"></i></a></li>
-                <li class="pure-menu-item"><a href="tel:+33466952854" class="pure-menu-link"><i
-                            class="fas fa-phone"></i></a></li>
+                <li class="pure-menu-item"><a href="tel:+33466952854" class="pure-menu-link">
+                            <i class="fas fa-phone"></i></a></li>
             </ul>
             <p id="nom_menu">Le 10 Tacos
                 <button class="btn-toggle">
-                    <img class="logo_dark" src="img/lune-soleil.svg" alt="">
+                    <i class="fas fa-moon" id="imgBtn"></i>
                 </button></p>
         </div>
     </div>
@@ -142,14 +142,19 @@
     </div>
     <script>
         const btn = document.querySelector(".btn-toggle");
+        const imgBtn = document.querySelector("#imgBtn");
         const theme = document.querySelector("#theme-link");
         btn.addEventListener("click", function() {
           // Swap out the URL for the different stylesheets
           if (theme.getAttribute("href") == "light-theme.css") {
             theme.href = "dark-theme.css";
+            imgBtn.classList.remove("fa-moon");
+            imgBtn.classList.add("fa-sun");
           } else {
             theme.href = "light-theme.css";
-          }
+            imgBtn.classList.remove("fa-sun");
+            imgBtn.classList.add("fa-moon");
+          }  
         });
       </script>
 </body>
