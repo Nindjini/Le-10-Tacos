@@ -24,6 +24,8 @@ h6,
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
+    margin-top: 50px;
+    
 }
 
 img{
